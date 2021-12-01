@@ -16,7 +16,7 @@ jobs:
 - job: Default
   timeoutInMinutes: "90"
   pool:
-    vmImage: 'vs2017-win2016'
+    vmImage: 'windows-2022'
 
   variables:
     devops_buildNumber: $[counter(format(''), 1500)]
